@@ -12,7 +12,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite!! + Svelte</h1>
+  <h1>проверка яюЪьшщ Vite!! + Svelte 123</h1>
 
   <div class="card">
     <Counter />
@@ -27,7 +27,7 @@
   </p>
 </main>
 
-<style>
+<style lang=scss>
   .logo {
     height: 6em;
     padding: 1.5em;
@@ -40,6 +40,8 @@
     filter: drop-shadow(0 0 2em #ff3e00aa);
   }
   .read-the-docs {
-    color: #888;
+    /* color: #888; */
+    font-family: Arial;
+    color:$super-color
   }
 </style>
